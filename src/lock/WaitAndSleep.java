@@ -15,6 +15,7 @@ public class WaitAndSleep {
      *      1. sleep期间，线程并不会释放它所持有的对象锁   <br>
      *      2. sleeep自己等待时间结束即唤醒   <br>
      *      3. wait需要设置时间后自己唤醒，或者通过notify来唤醒   <br>
+     *      4. wait和sleep都不占用cpu资源
      */
     public void acquireObjLockThenSleep() {
 

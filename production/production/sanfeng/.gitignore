@@ -1,0 +1,20 @@
+*.iml
+*/*.iml
+.DS_Store
+## Directory-based project format:
+.idea/
+.settings/
+target/
+*/target/
+*/target
+*.log
+logs/
+*/logs
+.classpath
+.project
+build.properties
+*.class
+classes/
+# src/main/test/
+# Js complie cache
+node_modules/
